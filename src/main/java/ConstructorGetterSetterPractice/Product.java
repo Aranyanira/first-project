@@ -29,7 +29,8 @@ public class Product {
     }
 
     public void applyDiscount(int discount) {
-        System.out.println("Цена со скидкой: " + this.price * discount / 100);
+        price = price * (1 - discount / 100.0);
+        System.out.println("Цена со скидкой: " + this.price);
     }
 
     public void printInfo(){

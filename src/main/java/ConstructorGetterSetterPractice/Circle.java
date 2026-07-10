@@ -24,10 +24,10 @@ public class Circle {
 
     public void calculateArea(){
 
-        System.out.println("Площадь окружности: " + (int) Math.PI * radius * radius);
+        System.out.println("Площадь окружности: " + Math.PI * radius * radius);
     }
 
     public void calculateCircumference(){
-        System.out.println("Длина окружности: " + 2 * (int) Math.PI * radius);
+        System.out.println("Длина окружности: " + 2 * Math.PI * radius);
     }
 }

@@ -21,8 +21,8 @@ public class Point {
         return this.y;
     }
 
-    void setY(int y){
-        this.y = y;
+    void setX(int x){
+        this.x = x;
     }
 
     public void print() {

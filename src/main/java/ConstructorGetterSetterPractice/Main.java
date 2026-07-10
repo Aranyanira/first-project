@@ -55,17 +55,17 @@ public class Main {
         teacherGeo.printInfo();
          */
 
-        /*
-        Product bun = new Product("Булочка с маком", 55);
-        bun.printInfo();
-        bun.setPrice(60);
-        bun.printInfo();
-        bun.applyDiscount(50);
-         */
 
+        Product bun = new Product("Булочка с маком", 60);
+        bun.printInfo();
+        bun.setPrice(100);
+        bun.printInfo();
+        bun.applyDiscount(70);
+
+/*
     Laptop lenovo = new Laptop("Lenovo", 1999);
     lenovo.printInfo();
     lenovo.setPrice(1899);
     lenovo.printInfo();
-    }
+ */    }
 }

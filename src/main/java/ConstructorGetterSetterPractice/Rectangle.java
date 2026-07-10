@@ -27,6 +27,6 @@ public class Rectangle {
     }
 
     public void calculateArea(){
-        System.out.println("Площадь треугольника = " + width * height);
+        System.out.println("Площадь прямоугольника = " + width * height);
     }
 }
