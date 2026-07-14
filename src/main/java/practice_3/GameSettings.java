@@ -26,8 +26,12 @@ public class GameSettings {
         GameSettings.maxPlayers = maxPlayers;
     }
 
-    public int addPlayer(int playerCount) {
-        return currentPlayers += playerCount;
+    public void addPlayer() {
+        if (currentPlayers < maxPlayers) {
+            currentPlayers++;
+        } else  {
+            System.out.println("Превышено количество игроков");;
+        }
     }
 
     public void printGameStatus(){

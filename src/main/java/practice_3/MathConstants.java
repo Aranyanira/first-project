@@ -9,6 +9,12 @@ final double E = 2.71828
 В main: вызовите методы с разными значениями радиуса.
 calculateExponentialGrowth(double initialValue, double rate, double time) — расчет по формуле экспоненциального роста:
  */
+/*
+В `MathConstants.calculateCircumference()` используется неверная формула: сейчас возвращается `E * PI * r`,
+а длина окружности рассчитывается как `2 * PI * r`.
+
+
+ */
 public class MathConstants {
     static final double PI = 3.14159;
     static final double E = 2.71828;
@@ -18,7 +24,7 @@ public class MathConstants {
     }
 
     public static double calculateCircumference(double r) {
-        return E * PI * r;
+        return 2 * PI * r;
     }
 
     public static double calculateExponentialGrowth(double initialValue, double rate, double time) {

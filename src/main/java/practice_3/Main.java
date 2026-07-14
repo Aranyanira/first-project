@@ -2,16 +2,19 @@ package practice_3;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+
         Company.companyName = "Новая заря";
         Company.printCompanyName();
-        Company employee1 = new Company("Василий", 101);
-        Company employee2 = new Company("Алена", 90);
-        Company employee3 = new Company("Никита", 88);
+        Company employee1 = new Company(101, "Василий");
+        Company employee2 = new Company(90, "Алена");
+        Company employee3 = new Company(88, "Никита");
         Company.companyName = "Красные башмаки";
         Company.printCompanyName();
+        //employee1.employeeID = 199; - Cannot assign a value to final variable 'employeeID'
+        System.out.println("Новая компания у сотрудника " + employee1 + " = " + Company.companyName);
+        System.out.println("Новая компания у сотрудника " + employee2 + " = " + Company.companyName);
 
-         */
+
 
         /*
         System.out.println(MathConstants.calculateCircleArea(8));
