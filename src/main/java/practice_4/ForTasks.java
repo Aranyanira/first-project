@@ -7,7 +7,7 @@ public class ForTasks {
         //sumOfNumbersDividedBy3();
         //sumOfNumbers();
         //multiplyTable();
-        //checkIfNumberSimple();
+        checkIfNumberSimple();
         //countToTen();
 
     }
@@ -22,7 +22,6 @@ if
 System.out.println()
      */
     public static void sumOfNumbersDividedBy3() {
-        int sum = 0;
         for (int i = 0; i <=100; i++) {
             if (i % 3 == 0) {
                 System.out.println(i);
@@ -64,7 +63,7 @@ System.out.println()
         System.out.println("Введите число: ");
         int number = sc.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 2; i <= 10; i++) {
             System.out.println(number + " x " + i + " = " + number*i);
         }
     }
@@ -81,16 +80,18 @@ if-else
 System.out.println()
      */
     public static void checkIfNumberSimple() {
+        boolean isPrime = true;
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число: ");
         int number = sc.nextInt();
-
-        boolean isPrime = true;
-
-        for (int i = 2; i <= number-1; i++) {
-            if (number % i == 0) {
-                isPrime = false;
-                break;
+        if (number < 2) {
+            isPrime =  false;
+        } else {
+            for (int i = 2; i <= number - 1; i++) {
+                if (number % i == 0 || number <= 1) {
+                    isPrime = false;
+                    break;
+                }
             }
         }
         if (isPrime) {

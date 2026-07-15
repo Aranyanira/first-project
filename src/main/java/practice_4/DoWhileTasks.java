@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DoWhileTasks {
     public static void main(String[] args) {
         //askNumberUntilIsPositive();
-        //checkPassword();
+        //waitForExitcheckPassword();
         //countToTen();
         //waitForExit();
         //numbersCounterInNumber();
@@ -21,13 +21,11 @@ System.out.println()
      */
     public static void askNumberUntilIsPositive() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        int number = sc.nextInt();
-
+        int number;
         do {
             System.out.print("Введите число: ");
             number = sc.nextInt();
-        } while (number < 0);
+        } while (number <= 0);
     }
     /*
     Задача:
@@ -40,8 +38,7 @@ System.out.println()
      */
     public static void checkPassword() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите пароль: ");
-        String userPasswordAttempt = sc.nextLine();
+        String userPasswordAttempt;
 
         String password = "Sunshine";
 
@@ -80,8 +77,7 @@ System.out.println()
      */
     public static void waitForExit() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите команду: ");
-        String userCommand = sc.nextLine();
+        String userCommand;
 
         do {
             System.out.print("Введите команду: ");

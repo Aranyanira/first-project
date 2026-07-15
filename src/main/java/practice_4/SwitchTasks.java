@@ -155,7 +155,11 @@ System.out.println()
                 System.out.println("Результат вычитания: " + (a - b));
                 break;
             case "/":
-                System.out.println("Результат деления: " + (a / b));
+                if (b > 0) {
+                    System.out.println("Результат деления: " + (a / b));
+                } else {
+                    System.out.println("На ноль делить нельзя!");
+                }
                 break;
             case "*":
                 System.out.println("Результат умножения: " + (a * b));
