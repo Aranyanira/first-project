@@ -3,7 +3,7 @@ package practice_5.task_8_museum;
 public class Manuscript implements ExhibitActions {
     @Override
     public void describe() {
-        System.out.println("Манусткрипт - это древний текст");
+        System.out.println("Манускрипт - это древний текст");
     }
 
     @Override

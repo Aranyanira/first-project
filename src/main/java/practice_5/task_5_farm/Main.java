@@ -15,7 +15,9 @@ public class Main {
         InteractableFarmAnimal cow = new Cow();
 
         Farm farm = new Farm();
+        farm.setAnimal(chicken);
         farm.serviceAnimal(chicken);
+        farm.setAnimal(cow);
         farm.serviceAnimal(cow);
     }
 }

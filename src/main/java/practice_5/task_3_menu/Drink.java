@@ -2,7 +2,7 @@ package practice_5.task_3_menu;
 
 public class Drink extends Dish {
 
-    private int volume;
+    private final int volume;
     public int getVolume() {
         return volume;
     }
@@ -15,6 +15,6 @@ public class Drink extends Dish {
     @Override
     public void print() {
         super.print();
-        System.out.print("Объем: " + this.volume);
+        System.out.println("Объем: " + this.volume);
     }
 }

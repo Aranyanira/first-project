@@ -15,7 +15,9 @@ public class Main {
         Swimmable seaStar = new SeaStar ();
 
         Aquarium aquarium = new Aquarium();
+        aquarium.setCreature(shark);
         aquarium.demonstrate(shark);
+        aquarium.setCreature(seaStar);
         aquarium.demonstrate(seaStar);
     }
 }

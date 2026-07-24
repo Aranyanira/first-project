@@ -1,7 +1,5 @@
 package practice_5.task_5_farm;
 
-import java.sql.SQLOutput;
-
 public class Cow implements InteractableFarmAnimal {
     @Override
     public void product() {

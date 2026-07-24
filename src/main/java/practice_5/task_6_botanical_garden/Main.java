@@ -18,7 +18,9 @@ public class Main {
         CareablePlant orchid = new Orchid();
 
         BotanicalGarden botanicalGarden = new BotanicalGarden();
+        botanicalGarden.setPlant(cactus);
         botanicalGarden.maintainPlant (cactus);
+        botanicalGarden.setPlant(orchid);
         botanicalGarden.maintainPlant (orchid);
 
     }

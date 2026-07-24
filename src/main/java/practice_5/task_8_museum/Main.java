@@ -16,7 +16,9 @@ public class Main {
 
         Museum museum = new Museum();
 
+        museum.setExhibit(manuscript);
         museum.showExhibit(manuscript);
+        museum.setExhibit(sculpture);
         museum.showExhibit(sculpture);
 
     }

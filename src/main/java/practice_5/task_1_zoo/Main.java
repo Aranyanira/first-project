@@ -15,9 +15,9 @@ public class Main {
 
         Zoo zoo = new Zoo();
 
-        zoo.present(elephant);
+        zoo.addAnimal(elephant);
         zoo.demonstrate(elephant);
-        zoo.present(bird);
+        zoo.addAnimal(bird);
         zoo.demonstrate(bird);
     }
 }

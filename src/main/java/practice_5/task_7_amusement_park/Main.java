@@ -14,7 +14,9 @@ public class Main {
         Attraction rollerCoaster = new RollerCoaster("Острые ощущения");
 
         AmusementPark amusementPark = new AmusementPark();
+        amusementPark.setAttraction(carousel);
         amusementPark.operateAttraction(carousel);
+        amusementPark.setAttraction(rollerCoaster);
         amusementPark.operateAttraction(rollerCoaster);
 
 

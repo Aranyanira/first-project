@@ -15,7 +15,9 @@ public class Main {
         Pet cat = new Cat();
 
         PetManager petManager = new PetManager();
+        petManager.addPet(dog);
         petManager.interact(dog);
+        petManager.addPet(cat);
         petManager.interact(cat);
     }
 }

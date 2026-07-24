@@ -15,9 +15,9 @@ public class Main {
 
         Menu menu = new Menu();
 
-        menu.presentDish(hotDish);
+        menu.addDish(hotDish);
         menu.showDescription(hotDish);
-        menu.presentDish(drink);
+        menu.addDish(drink);
         menu.showDescription(drink);
 
 

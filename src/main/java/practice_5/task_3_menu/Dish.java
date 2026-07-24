@@ -1,8 +1,8 @@
 package practice_5.task_3_menu;
 
 public class Dish implements Printable {
-    private String name;
-    private String description;
+    private final String name;
+    private final String description;
 
     public Dish(String name, String description) {
         this.name = name;

@@ -18,6 +18,6 @@ public class HotDish extends Dish {
     @Override
     public void print() {
         super.print();
-        System.out.print("Температура: " + this.temperature);
+        System.out.println("Температура: " + this.temperature);
     }
 }
