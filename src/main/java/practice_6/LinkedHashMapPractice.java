@@ -62,7 +62,7 @@ public class LinkedHashMapPractice {
     }
 
     public static void addViewHistory(Map<String, String> viewHistory, String pageId, String pageName) {
-        if (viewHistory.size() >= 10) {
+        if (!viewHistory.containsKey(pageId)) {
             String oldestKey = viewHistory.entrySet().iterator().next().getKey();
             viewHistory.remove(oldestKey);
         }

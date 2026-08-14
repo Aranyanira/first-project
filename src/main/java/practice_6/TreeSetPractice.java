@@ -38,7 +38,7 @@ public class TreeSetPractice {
         numbers.add(190);
         numbers.add(6);
         System.out.println(numbers.lower(10));
-        System.out.println(numbers.higher(6));
+        System.out.println(numbers.higher(10));
     }
 
 }

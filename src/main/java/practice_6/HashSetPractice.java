@@ -60,7 +60,7 @@ public class HashSetPractice {
 
     }
 
-    public static void checkIfSetContains(HashSet<Integer> set, int value) {
+    public static void checkIfSetContains(Set<Integer> set, int value) {
         if (set.contains(value)) {
             System.out.println("Значение " + value + " есть в списке");
         } else {
@@ -69,11 +69,10 @@ public class HashSetPractice {
     }
 
     public static Set<String> returnSet(List<String> list) {
-        HashSet<String> set = new HashSet<>(list);
-        return set;
+        return new HashSet<>(list);
     }
 
-    public static void checkIfSetContainsName(HashSet<String> set, String name) {
+    public static void checkIfSetContainsName(Set<String> set, String name) {
         if (set.contains(name)) {
             System.out.println("Имя " + name + " есть в списке");
         } else {

@@ -56,7 +56,7 @@ public class ArrayListPractice {
         System.out.println(findMax(intNumbers));
     }
 
-    public static int findMax(ArrayList<Integer> list) {
+    public static int findMax(List<Integer> list) {
         int max = Integer.MIN_VALUE;
         for (int i : list) {
             if (i > max) {

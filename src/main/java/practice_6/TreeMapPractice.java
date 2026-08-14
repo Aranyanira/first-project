@@ -46,6 +46,7 @@ public class TreeMapPractice {
         workers.put(4567, "Виктория");
         workers.put(7811, "Алена");
         System.out.println(workers.higherKey(8909));
+        System.out.println(workers.lowerKey(8909));
     }
 
 }

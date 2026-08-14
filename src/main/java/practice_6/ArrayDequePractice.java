@@ -26,11 +26,12 @@ public class ArrayDequePractice {
         System.out.println("-----Задача 2-----");
 
         ArrayDeque<Integer> deque = new ArrayDeque<>();
-        deque.add(890);
-        deque.add(11);
-        deque.offer(8950);
-        deque.add(5);
-        deque.offerFirst(78);
+        deque.push(890);
+        deque.push(11);
+        deque.push(8950);
+        deque.push(5);
+        deque.push(78);
+        System.out.println(deque);
         while (!deque.isEmpty()) {
             System.out.println(deque.pop());
         }
